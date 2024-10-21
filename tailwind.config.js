@@ -3,7 +3,11 @@ module.exports = {
   mode: "jit",
   content: ["*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily:{
+        arima: ['Arima', 'system-ui'],
+      }
+    },
   },
   plugins: [],
 }

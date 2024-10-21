@@ -4,6 +4,6 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tailwindcss -i ./dist/tailwind.css -o ./dist/style.css --w"
+    "build": "tailwindcss -i ./dist/tailwind.css -o ./dist/style.css --watch"
   }
 }
